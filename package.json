@@ -1,0 +1,25 @@
+{
+  "name": "node-dynamic-ip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dynamic ip",
+    "noip",
+    "freedns",
+    "dyndns",
+    "duckdns",
+    "google"
+  ],
+  "author": "Michael L. Hobbs <michael.lee.hobbs@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.1",
+    "debug": "^4.3.1",
+    "node-fetch": "^2.6.1",
+    "yargs": "^16.2.0"
+  }
+}

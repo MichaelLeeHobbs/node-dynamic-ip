@@ -1,0 +1,14 @@
+[
+  {
+    "service": "noip",
+    "user": "example",
+    "password": "password",
+    "hostname": "test-ndip.zapto.org"
+  },
+  {
+    "service": "freedns",
+    "user": "example",
+    "password": "password",
+    "hostname": "test-ndip.chickenkiller.com"
+  }
+]
