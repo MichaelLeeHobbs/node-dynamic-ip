@@ -2,7 +2,7 @@ FROM node:14.13.1-alpine
 
 WORKDIR /opt/node-dynamic-ip
 COPY package* ./
-RUN yarn install
+RUN npm install
 COPY src src
 
 ENV NPM_CONFIG_LOGLEVEL info

@@ -1,4 +1,6 @@
 # Node Dynamic IP
+[![Test Pushes and Pull Request](https://github.com/MichaelLeeHobbs/node-dynamic-ip/actions/workflows/test.yml/badge.svg)](https://github.com/MichaelLeeHobbs/node-dynamic-ip/actions/workflows/test.yml)
+[![Publish image](https://github.com/MichaelLeeHobbs/node-dynamic-ip/actions/workflows/publish-image.yml/badge.svg)](https://github.com/MichaelLeeHobbs/node-dynamic-ip/actions/workflows/publish-image.yml)
 ## Install
 
 ### From Source
