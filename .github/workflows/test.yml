@@ -13,4 +13,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Test Image Build
-        run: docker build . --file ./dockerFiles/Dockerfile --tag $IMAGE_NAME
+        run: docker build . --file ./Dockerfile --tag $IMAGE_NAME
