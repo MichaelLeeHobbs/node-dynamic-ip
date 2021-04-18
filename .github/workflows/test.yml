@@ -1,4 +1,4 @@
-name: Docker
+name: Test Pushes and Pull Request
 
 on: [push, pull_request]
 
