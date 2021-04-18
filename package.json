@@ -1,10 +1,11 @@
 {
   "name": "node-dynamic-ip",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Dynamic IP client for NOIP, ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "docker build . -t node-dynamic-ip:dev"
   },
   "keywords": [
     "dynamic ip",
@@ -15,10 +16,11 @@
     "google"
   ],
   "author": "Michael L. Hobbs <michael.lee.hobbs@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chokidar": "^3.5.1",
     "debug": "^4.3.1",
+    "fs-extra": "^9.1.0",
     "node-fetch": "^2.6.1",
     "yargs": "^16.2.0"
   }
